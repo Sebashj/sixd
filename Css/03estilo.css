@@ -1,0 +1,72 @@
+*{
+    morgin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  body{
+    
+    text-align: center;
+  }
+  h1{
+    font-family: 'Tilt Prism', cursive;
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+    url("font/Roboto-Black.ttf") format("truetype");
+  }
+  .roboto{
+    font-family: 'Roboto';
+  }
+  .rubik{
+    font-family: 'Tilt Prism', cursive;
+  }
+  .styles{
+    font-family: 'Sono', sans-serif;
+  }
+  .smok{
+    font-family: 'Smokum', cursive;
+  }
+  .ch{
+    font-family: 'Inconsolata', monospace;
+  }
+  .an{
+    font-family: 'Anton', sans-serif;
+  }
+  .izq{
+   text-align: left;
+  }
+  .der{
+   text-align: right;
+  }
+  .cen{
+    text-align: center;
+  }
+  .jus{
+    text-align: justify;
+  }
+  .int{
+    line-height: 0.5;
+    font-size: 1em;
+  }
+  .int2{
+    line-height: 0.5;
+    font-size: 1em;
+  }
+  .lib{
+    font-family: 'Roboto';
+    font-size: 72px;
+    background: linear-gradient(to bottom right, red, yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .lib:hover{
+    font-family: 'Roboto';
+    font-size: 72px;
+    background: linear-gradient(to bottom right, red, yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 1s all ease;
+    transform: scale(1.11);
+    transform: rotate(360deg);
+  }

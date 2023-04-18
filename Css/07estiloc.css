@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  background: red;
+  color: blue;
+  border: 2px dashed yellow;
+  display: inline-block;
+}
+.em{
+  width: 100px;
+  height: 100px;
+}
+.c{
+  background: blue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: Center;
+}
+.od{
+  background: cyan;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  top: 0px;
+  left: 0px;
+}
+.oi{
+  background: cyan;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  bottom: 0px;
+  right: 0px;
+}
+.n{
+  background: coral;
+  position: static;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.b{
+  background: black;
+  width: 90px;
+  height: 10px;
+}

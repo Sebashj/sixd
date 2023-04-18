@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+div{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: Center;
+  background: red;
+  color: blue;
+  border: 2px dashed yellow;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+}
+.c2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: green;
+}
+.c3{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: green;
+}
+.c4{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: green;
+}
+.c5 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: green;
+}
+.c6{
+  position: relative;
+  top: 50px;
+  right: 50px;
+  background: yellow;
+}
+.c10{
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  background: pink;
+}
+.c8{
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  background: rgb(0, 0, 255, 0.5) ;
+  z-index: 3;
+}
